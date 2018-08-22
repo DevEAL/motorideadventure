@@ -793,9 +793,9 @@ title_strong {
 }
 .content_parallax {    
     background-image: url('../images/bg_parallax1.png');
-    background-repeat:repeat; 
 	background-attachment: fixed;
     height: 350px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
