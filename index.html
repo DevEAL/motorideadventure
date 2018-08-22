@@ -72,7 +72,7 @@
 	<!-- Swiper-container -->
     <div class="swiper-container" id="home">
         <div class="swiper-wrapper">
-            <div class="swiper-slide center" style="background-image: url(images/welcome.png);background-position: center right;">
+            <div class="swiper-slide center" style="background-image: url(images/welcome.png);background-position: center;">
 				<div class="overlay-bg">
 					<div class="container">
 						<div class="scroll">
@@ -329,70 +329,68 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="contact-form">
-							<form name="sentMessage" id="contactForm" novalidate>
-								<div class="row">
-									<div class="col-md-7">
-										<div class="contact_from_text">
-											<h2>PÓNGASE EN CONTACTO CON NOSOTROS</h2>
-											<p class="text_contact">Estamos atentos a sus comentarios, recibirá respuesta en breve.</p>
-											
-											<h3 class="title_contact">planta</h3>
-											<p class="text_contact">Cel: 3102633808 <br> Teléfono: +57 (1) 7954806 </p>
-											<p class="text_email">Email: info@recicladosindustriales.co </p>
-
-											<h3 class="title_contact"> OFICINAS </h3>
-											<p class="text_contact">Calle 86 # 24 - 45 <br> Bogotá, Cundinamarca. </p>
-											<p class="icon_redes">
-												<span class="fa-stack ico fa-2x ">
-													<i class="fas fa-circle fa-stack-2x"></i>
-													<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-												</span>
-												<span class="ico fa-stack fa-2x ">
-														<i class="fas fa-circle fa-stack-2x"></i>
-														<i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-													</span>
-											</p>														
-										</div>
-										<div class="row content_direccion">
-												<div class="col-md-3">
-													<h3 class="title_contact"><span><i class="fas fa-map-marker-alt fa-2x"></i></span> PLANTA </h3>
-												</div>
-												<div class="col-md-9">
-													<p>Km1.5 – Costado Sur Vía Bogotá Siberia. <strong> Cota, Cundinamarca. </strong>
-													</p> 
-												</div>
-
-											</div>									
-									</div>
-									<div class="col-md-5">
-											<div class="form-group">
-												<input type="text" placeholder="Nombre" class="form-control" id="name" required data-validation-required-message="Ingrese su nombre">
-												<p class="help-block text-danger"></p>
-											</div>
-												<div class="form-group">
-													<input type="email" placeholder="Email *" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-													<p class="help-block text-danger"></p>
-												</div>
-												
-											<div class="form-group">
-												<input type="text" placeholder="Teléfono " class="form-control"  id="phone" required data-validation-required-message="Please enter your phone number.">
-												<p class="help-block text-danger"></p>
-											</div>										
+						<form name="sentMessage" id="contactForm" novalidate>
+							<div class="row">
+								<div class="col-md-7">
+									<div class="contact_from_text">
+										<h2>PÓNGASE EN CONTACTO CON NOSOTROS</h2>
+										<p class="text_contact">Estamos atentos a sus comentarios, recibirá respuesta en breve.</p>
 										
-											<textarea class="form-control" placeholder="Mensaje *" rows="6" id="message" required data-validation-required-message="Please enter a message."></textarea>
-											<p class="help-block text-danger"></p>
-											<div id="success"></div>										
-									
-											<div class="alert alert-danger error">Error!  E-mail por favor revisé su correo electrónico</div>
-											<div class="alert alert-success success">Su mensaje se ha enviado correctamente</div>
-									
-											<input type="submit" value="Enviar" class="btn btn-default btn-esg" />
-											<p> <br>* Campos Obligatorios </p>							
-									
+										<h3 class="title_contact">planta</h3>
+										<p class="text_contact">Cel: 3102633808 <br> Teléfono: +57 (1) 7954806 </p>
+										<p class="text_email">Email: info@recicladosindustriales.co </p>
+
+										<h3 class="title_contact"> OFICINAS </h3>
+										<p class="text_contact">Calle 86 # 24 - 45 <br> Bogotá, Cundinamarca. </p>
+										<p class="icon_redes">
+											<span class="fa-stack ico fa-2x ">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+											</span>
+											<span class="ico fa-stack fa-2x ">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+											</span>
+										</p>														
 									</div>
-								</div>								
-							</form>
-						
+									<div class="row content_direccion">
+										<div class="col-md-3">
+											<h3 class="title_contact"><span><i class="fas fa-map-marker-alt fa-2x"></i></span> PLANTA </h3>
+										</div>
+										<div class="col-md-9">
+											<p>Km1.5 – Costado Sur Vía Bogotá Siberia. <strong> Cota, Cundinamarca. </strong>
+											</p> 
+										</div>
+
+									</div>									
+								</div>
+								<div class="col-md-5">
+										<div class="form-group">
+											<input type="text" placeholder="Nombre" class="form-control" id="name" required data-validation-required-message="Ingrese su nombre">
+											<p class="help-block text-danger"></p>
+										</div>
+										<div class="form-group">
+											<input type="email" placeholder="Email *" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+											<p class="help-block text-danger"></p>
+										</div>
+											
+										<div class="form-group">
+											<input type="text" placeholder="Teléfono " class="form-control"  id="phone">
+											<p class="help-block text-danger"></p>
+										</div>										
+									
+										<textarea class="form-control" placeholder="Mensaje *" rows="6" id="message" required data-validation-required-message="Please enter a message."></textarea>
+										<p class="help-block text-danger"></p>
+										<div id="success"></div>										
+								
+										<div class="alert alert-danger error">Error!  E-mail por favor revisé su correo electrónico</div>
+										<div class="alert alert-success success">Su mensaje se ha enviado correctamente</div>								
+										<input type="submit" value="Enviar" class="btn btn-default btn-esg" />
+										<p> <br>* Campos Obligatorios </p>							
+								
+								</div>
+							</div>								
+						</form>						
 					</div>
 				</div>
 			</div>
