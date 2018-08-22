@@ -533,8 +533,18 @@ p{font-size: 15px; line-height: 24px; font-weight: 400; color: #666; font-family
 					about -container
 ----------------------------------------------------*/
 
+#fondo_icons {
+    background-image: url("../images/fondo_icons.png");
+    background-size: cover;
+}
+
 .about {
 	margin-top: 3%;
+}
+
+.about .content_title .title_about {
+    margin-bottom: 5%;
+
 }
 
 .content_title h1 {
@@ -569,7 +579,8 @@ title_strong {
 
 .about .thumbnail {
 	border: none;
-	padding: 30px;
+    padding: 30px;
+    background: transparent;
 }
 .about .thumbnail h3{
     text-align: center;
@@ -618,9 +629,9 @@ title_strong {
 ----------------------------------------------------*/
 
 
-#ventajas {
+/* #ventajas {
     margin-top: 5%;
-}
+} */
 
 #ventajas .col-md-6 {
     padding: 0px;
