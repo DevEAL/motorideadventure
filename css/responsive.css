@@ -83,6 +83,16 @@
 		padding-top: 7px;
 	}
 
+	.containero {
+		flex-direction:column
+	  }
+	  .first{
+		order: 2;
+	  }
+	  .second{
+		order: 1;
+	  }	
+
 	
 
 }
@@ -168,7 +178,7 @@
 	.header .navbar-nav {
 		margin-top: 32px;
 	}
-	
+
 	.containero {
 		flex-direction:column
 	  }

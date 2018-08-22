@@ -692,7 +692,7 @@ title_strong {
     left: 55%;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
 }
 
 
@@ -819,8 +819,6 @@ title_strong {
 
 .containero {
     display:flex;
-    flex-flow: row wrap;
-    justify-content:space-between;
   }
 
 
