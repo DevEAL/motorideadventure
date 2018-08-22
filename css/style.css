@@ -685,7 +685,7 @@ title_strong {
     font-size: 35px;
     color: #fff;
     text-align: right;
-    top: 50%;
+    top: 59%;
     line-height: 35px;
     position: absolute;
     left: 55%;
@@ -745,9 +745,8 @@ title_strong {
   
   .cont_title {
     position: absolute;
-    margin-top: -119px;
+    margin-top: -89px;
     background: #231F20;
-    /* padding: 0px 50px; */
     left: 8%;
     text-align: center;
     color: #fff;
@@ -761,6 +760,8 @@ title_strong {
     font-size: 18px;
     line-height: 22px;
     margin: 10px 0px;
+    font-weight: 300;    
+    font-family: 'Montserrat', sans-serif;
   }
   .my-owl-nav span:hover {
     cursor: pointer;
@@ -945,6 +946,7 @@ title_strong {
 .contact_from_text h2 {
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     color: #58595B;
     z-index: 222;
     position: relative;
