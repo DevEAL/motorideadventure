@@ -13,7 +13,7 @@
 
 	$headers = "From: " . $email;
 
-	$to = 'cuentas@enalgunlugarestudio.com';
+	$to = 'untalrobertt@gmail.com';
 
 	mail($to,  'Nombre: '.$name. ' Mensaje: '.$message. ' Teléfono: '.$phone. ' Email: '.$email);
 
