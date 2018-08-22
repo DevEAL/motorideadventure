@@ -82,6 +82,9 @@
 	.header .navbar-brand {
 		padding-top: 7px;
 	}
+
+	
+
 }
 
 
@@ -117,6 +120,15 @@
 	.header .navbar-nav {
 		margin-top: 32px;
 	}
+	.containero {
+		flex-direction:column
+	  }
+	  .first{
+		order: 2;
+	  }
+	  .second{
+		order: 1;
+	  }
 
 }
 
