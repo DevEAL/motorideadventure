@@ -74,6 +74,9 @@
 	.scroll {
 		margin-top: 707%;
 	}
+	.header .navbar-brand {
+		padding-top: 7px;
+	}
 }
 
 
