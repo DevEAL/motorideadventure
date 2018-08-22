@@ -56,6 +56,10 @@
 	.header.header-colored .navbar-brand {
 		padding-top: 2px;
 	}
+	.header.header-colored .navbar-toggle {
+		margin-top: 21px;
+		padding: 10px;
+	}
 
 	.contact_from_text h2::before {
 		content: '';
@@ -70,6 +74,7 @@
 	}
 	.cont_title {		
 		width: 311px;
+		left: 13%;
 	}
 	.scroll {
 		margin-top: 707%;
@@ -104,13 +109,14 @@
 	h4{font-size: 22px; line-height: 28px;}
 	h5{font-size: 18px; line-height: 22px;}
 	h6{font-size: 16px; line-height: 20px;}
-
 	
 	.main-title{font-size: 18px;}
 	.what_do {
 		margin-top: 50%;
 	}
-	
+	.header .navbar-nav {
+		margin-top: 32px;
+	}
 
 }
 
@@ -146,6 +152,19 @@
 		margin-top: 100%;
 	}
 	
+	.my-prev-button {
+		top: -180px;
+		z-index: 3;
+		right: 3px;
+	}
+
+	.my-next-button {
+		top: -180px;
+	}
+
+	.header .navbar-nav {
+		margin-top: 32px;
+	}
 
    
 }
