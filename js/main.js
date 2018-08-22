@@ -89,7 +89,6 @@ $(document).on('ready', function () {
 // section video
 
 
-
 var videoPlayButton,
 	videoWrapper = document.getElementsByClassName('video-wrapper')[0],
     video = document.getElementsByTagName('video')[0],
@@ -121,7 +120,6 @@ var videoPlayButton,
 	}
 
 videoMethods.renderVideoPlayButton()
-
     
 });
 
