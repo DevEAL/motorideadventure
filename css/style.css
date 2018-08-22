@@ -681,11 +681,11 @@ title_strong {
     position: relative;
 }
 
-.ventajas_text p{
+.ventajas_text p {
     font-size: 35px;
     color: #fff;
     text-align: right;
-    top: 59%;
+    top: 65%;
     line-height: 35px;
     position: absolute;
     left: 55%;
@@ -980,6 +980,7 @@ title_strong {
     color: #9ABD3E;
     text-transform: uppercase;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .contact_from_text h2::before {
