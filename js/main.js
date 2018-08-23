@@ -73,21 +73,9 @@ $(document).on('ready', function () {
     });
 	 
 	
-	// swiper slider for carousel page
-	// var swiper = new Swiper('.swiper-container', {
-    //     pagination: '.swiper-pagination',
-    //     paginationClickable: true,
-    //     nextButton: '.swiper-button-next',
-    //     prevButton: '.swiper-button-prev',
-    //     spaceBetween: 10,
-    //     effect: 'fade',
-	// 	speed: 500
-    // });
-	 
 
 
-// section video
-
+// section video youtube
 
 // poster frame click event
 $(document).on('click','.js-videoPoster',function(ev) {
@@ -123,41 +111,6 @@ $(document).on('click','.js-videoPoster',function(ev) {
     $iframe.attr('src','');
   }
 
-
-
-
-// var videoPlayButton,
-// 	videoWrapper = document.getElementsByClassName('video-wrapper')[0],
-//     video = document.getElementsByTagName('video')[0],
-//     videoMethods = {
-//         renderVideoPlayButton: function() {
-//             if (videoWrapper.contains(video)) {
-// 				this.formatVideoPlayButton()
-//                 video.classList.add('has-media-controls-hidden')
-//                 videoPlayButton = document.getElementsByClassName('video-overlay-play-button')[0]
-//                 videoPlayButton.addEventListener('click', this.hideVideoPlayButton)
-//             }
-//         },
-
-//         formatVideoPlayButton: function() {
-//             videoWrapper.insertAdjacentHTML('beforeend', '\
-//                 <svg class="video-overlay-play-button" viewBox="0 0 200 200" alt="Play video">\
-//                     <circle cx="100" cy="100" r="90" fill="none" stroke-width="15" stroke="#fff"/>\
-//                     <polygon points="70, 55 70, 145 145, 100" fill="#fff"/>\
-//                 </svg>\
-//             ')
-//         },
-
-//         hideVideoPlayButton: function() {
-//             video.play()
-//             videoPlayButton.classList.add('is-hidden')
-//             video.classList.remove('has-media-controls-hidden')
-//             video.setAttribute('controls', 'controls')
-//         }
-// 	}
-
-// videoMethods.renderVideoPlayButton()
-    
 });
 
 
