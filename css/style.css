@@ -689,7 +689,7 @@ title_strong {
     top: 65%;
     line-height: 35px;
     position: absolute;
-    left: 43%;
+    left: 50%;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     letter-spacing: 6px;
@@ -756,7 +756,7 @@ title_strong {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 327px;
+    width: 86%;
   }
 
   

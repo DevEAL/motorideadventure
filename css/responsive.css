@@ -228,12 +228,47 @@
 	.scroll {
 		margin-top: 100%;
 	}
+	.ventajas_text p {		
+		left: 43%;
+	
+	}
 
 }
 
 /* Large Screen */
-@media (min-width:1200px)
-{
+@media (min-width:1200px){
+
+	.ventajas_text p {		
+		left: 43%;	
+	}
+	/* .cont_title {
+		
+		width: 276px;
+	}
+	 */
+	
+}
+
+@media (max-width:1380px){
+
+	.ventajas_text p {		
+		left: 29%;
+	
+	}
+}
+@media (min-width:992px) and (max-width: 1024px) {
+	.ventajas_text p {		
+		left: 18%;
+	
+	}
+
+}
+@media (max-width:1024px){
+
+	.ventajas_text p {		
+		left: 18%;	
+	}
+	
 	
 	
 }
