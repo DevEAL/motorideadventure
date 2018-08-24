@@ -487,10 +487,10 @@ p{font-size: 15px; line-height: 24px; font-weight: 400; color: #666; font-family
 	border-radius: 80%;
 }
 
-.swiper-button-next:hover,
+/* .swiper-button-next:hover,
 .swiper-button-prev:hover{
 	background-color: #ff2462;
-}
+} */
 
 .swiper-button-next, .swiper-button-prev {
     position: absolute;
