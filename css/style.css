@@ -18,9 +18,11 @@ body {
   font-style: normal;
 }
 
+
 a,
 a:hover{
-	text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 a:focus{
