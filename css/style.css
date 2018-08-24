@@ -703,7 +703,7 @@ title_strong {
     font-size: 18px;
     font-weight: 100;
     line-height: 25px;
-    padding-left: 20%;
+    padding-left: 17%;
 }
 .list ul {
     padding-top: 60px;   
@@ -731,7 +731,6 @@ title_strong {
     text-transform: uppercase;
     color: #58595B;
     margin-bottom: 50px;
-
 }
 
 .item {
@@ -742,12 +741,12 @@ title_strong {
     font-size: 40px;
     z-index: 800;
   }
-  .my-owl-nav span {
+.my-owl-nav span {
       position: relative;
       margin: 0 4px;
   }
   
-  .cont_title {
+.cont_title {
     position: absolute;
     margin-top: -89px;
     background: #231F20;
@@ -760,18 +759,18 @@ title_strong {
   }
 
   
-  .cont_title h3 {
+.cont_title h3 {
     font-size: 18px;
     line-height: 22px;
     margin: 10px 0px;
     font-weight: 300;    
     font-family: 'Montserrat', sans-serif;
   }
-  .my-owl-nav span:hover {
+.my-owl-nav span:hover {
     cursor: pointer;
   }
 
-  .my-next-button {
+.my-next-button {
     left: 94%;
     top: -210px;
     z-index: 3;
@@ -1186,7 +1185,8 @@ title_strong {
 }
 
 .footer .copyright p{
-	color: #58595B;
+    color: #58595B;
+    margin-top: 3%;
 }
 
 .footer .copyright p strong{
@@ -1232,6 +1232,14 @@ title_strong {
 
 #maps iframe {
     width: 100%;
+}
+
+.estilos_mapa {
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.49);
+box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.49);
+    margin-bottom: 5%;
+    
 }
 
 
