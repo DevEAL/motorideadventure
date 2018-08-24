@@ -11,8 +11,7 @@
 .what_do {
 	margin-top: 90%;
 }
-.background_images {
-	
+.background_images {	
 	margin-bottom: 90%;
 }
 .sticky-container {
@@ -99,7 +98,7 @@
 
 @media (max-width: 767px) {
 	
-.header.header-colored .navbar-nav li.active a:after{width: 100%;}
+.header.header-colored .navbar-nav li.active a:after {width: 100%;}
 
 .header .navbar-nav { float: none; background-color: #fff; }
 
@@ -107,13 +106,13 @@
 .header .navbar-nav li a { padding: 10px 10px; color: #222; }	
 
 .welcome-area .welcome-text .up-title,
-.welcome-particles .welcome-text .up-title{font-size: 20px;}
+.welcome-particles .welcome-text .up-title {font-size: 20px;}
 
 .welcome-area .welcome-text p,
 .welcome-particles .welcome-text p,
-.swiper-container .swiper-wrapper .swiper-slide .overlay-bg .welcome-text p{margin: 0 15%; margin-bottom: 30px;}
+.swiper-container .swiper-wrapper .swiper-slide .overlay-bg .welcome-text p {margin: 0 15%; margin-bottom: 30px;}
 	
-.swiper-container .swiper-wrapper .swiper-slide.left .overlay-bg .welcome-text p{margin: 0 30% 30px 0;}
+.swiper-container .swiper-wrapper .swiper-slide.left .overlay-bg .welcome-text p {margin: 0 30% 30px 0;}
 	
 	h1{font-size: 33px; line-height: 35px;}
 	h2{font-size: 28px; line-height: 38px;}
@@ -122,14 +121,13 @@
 	h5{font-size: 18px; line-height: 22px;}
 	h6{font-size: 16px; line-height: 20px;}
 	
-.main-title{font-size: 18px;}
+.main-title {font-size: 18px;}
 .what_do {
 	margin-top: 50%;
 }
 .header .navbar-nav {
 	margin-top: 32px;
 }
-
 }
 
 /* Small Screen */
@@ -159,6 +157,7 @@
 .cont_title {		
 	width: 212px;
 }
+
 .scroll {
 	margin-top: 100%;
 }
@@ -176,21 +175,19 @@
 .header .navbar-nav {
 	margin-top: 32px;
 
-	}
+}
 
 .containero {
 	flex-direction:column
-	  }
+}
 
 .first {
 	order: 2;
 }
-.second {
-	order: 1;
-	  
-}	
 
-   
+.second {
+	order: 1;	  
+}   
 }
 
 /* Medium Screen */
@@ -219,12 +216,11 @@
 	padding-left: 4%;	
 }
 .scroll {
-		margin-top: 100%;
+	margin-top: 100%;
 }
 .ventajas_text p {		
-		left: 43%;
-	
-	}
+	left: 43%;	
+}
 
 }
 
@@ -233,30 +229,24 @@
 
 .ventajas_text p {		
 	left: 43%;	
-}
-	
+}	
 }
 
 @media (max-width:1380px){
 
 .ventajas_text p {		
 	left: 29%;
-
+}
 }
 
-}
 @media (min-width:992px) and (max-width: 1024px) {
 .ventajas_text p {		
 	left: 18%;
-
+}
 }
 
-}
 @media (max-width:1024px){
-
 .ventajas_text p {		
 	left: 18%;	
 }
-		
-	
 }
