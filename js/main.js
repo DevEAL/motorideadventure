@@ -1,139 +1,150 @@
-$(document).on('ready', function () {
-    
-    "use strict";
-    
-    var win = $(window);
-            
+$( document ).ready(function() {
+
+    $('a[data-toggle="tooltip"]').tooltip({
+        animated: 'fade',
+        placement: 'bottom',
+        html: true
+    });
   
-    win.on("scroll", function () {
-      var wScrollTop  = $(window).scrollTop();    
-        
-        if (wScrollTop > 150) {
-            $("#main-header").addClass("header-colored");
-        } else {
-            $("#main-header").removeClass("header-colored");
+    $('.owl-carouselProt').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        nav:true,
+        navText: [
+          "<i class='fas fa-angle-double-left'></i>",
+          "<i class='fas fa-angle-double-right'></i>"
+          ],
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            300:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            900:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false
+            },
+            1200:{
+                items:4
+            }
         }
     });
 
-
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carouselExp').owlCarousel({
         loop:true,
         margin:10,
-        nav:false,
-        dots: false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        nav:true,
+        navText: [
+          "<i class='fas fa-angle-left'></i>",
+          "<i class='fas fa-angle-right'></i>"
+        ],
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false
             },
-            600:{
-                items:3
+            300:{
+                items:1,
+                nav:false
             },
-            1000:{ 
+            700:{
+                items:2,
+                nav:false
+            },
+            900:{
+                items:2,
+                nav:true
+            },
+            1000:{
+                items:3,
+                nav:false
+            },
+            1200:{
                 items:3
             }
         }
     });
-    
-    var selector = $('.owl-carousel');
-    
-    $('.my-next-button').click(function() {
-      selector.trigger('next.owl.carousel');
-    });
-    
-    $('.my-prev-button').click(function() {
-      selector.trigger('prev.owl.carousel');
-    });
-    
 
-   /* projects section */
-   var  scrollButton = $('#scroll-top');
-    
-    
-    /* Caching The Scroll Top Button  */
-    
-    win.on('scroll', function () {
-        if ($(this).scrollTop() >= 700) {
-            
-            scrollButton.show();
-            
-        } else {
-            
-            scrollButton.hide();
+    $(".fm-nav a").on('click', function(e){
+        if(this.hash !==""){
+            e.preventDefault();
+            var hash = this.hash;
+            $('html,body').animate({
+                scrollTop: $(hash).offset().top - 100
+            },800,function(){
+                window.location.hash = hash;
+            });
         }
-        
     });
-	
-    
-    /* Click On Button To Scroll Top */
-    
-    scrollButton.on('click', function () {
-        
-        $('html,body').animate({ scrollTop : 0 }, 1100);
-        
+
+    var scrollHome = $('.home').offset().top;
+    $('#home').on('click',function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: scrollHome
+        },800);
     });
-	 
-	
 
+    $('#altern').on('click',function(){
+        $('#reply').toggle('slow');
+    });
 
-// section video youtube
+    $('#giveBack').on('click',function(){
+        $('#resGive').toggle('slow');
+    });
 
-// poster frame click event
-$(document).on('click','.js-videoPoster',function(ev) {
-    ev.preventDefault();
-    var $poster = $(this);
-    var $wrapper = $poster.closest('.js-videoWrapper');
-    videoPlay($wrapper);
-  });
-  
-  // play the targeted video (and hide the poster frame)
-  function videoPlay($wrapper) {
-    var $iframe = $wrapper.find('.js-videoIframe');
-    var src = $iframe.data('src');
-    // hide poster
-    $wrapper.addClass('videoWrapperActive');
-    // add iframe src in, starting the video
-    $iframe.attr('src',src);
-  }
-  
-  // stop the targeted/all videos (and re-instate the poster frames)
-  function videoStop($wrapper) {
-    // if we're stopping all videos on page
-    if (!$wrapper) {
-      var $wrapper = $('.js-videoWrapper');
-      var $iframe = $('.js-videoIframe');
-    // if we're stopping a particular video
-    } else {
-      var $iframe = $wrapper.find('.js-videoIframe');
-    }
-    // reveal poster
-    $wrapper.removeClass('videoWrapperActive');
-    // remove youtube link, stopping the video from playing in the background
-    $iframe.attr('src','');
-  }
+    $(document).on('click keyup','.gridCheck',function() {
+        sumar();
+    });
 
+    $('.getYours').on('click',function(){
+        var button = $(this).val();
+        $("#selectMoto option").filter(function(){
+            return $(this).val() == button;
+        }).prop('selected',true);
+    });
+
+    $(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            // phone: '57 3108829627',
+            phone: '57 3102267187',
+            popupMessage: 'Este chat esta disponible para resolver sus inquietudes. Le responderemos en el menor tiempo posible.',
+            showPopup: true,
+            message: 'Escribe aqui ...',
+            headerTitle: 'Chat Motoraid',
+            position: 'left'
+        });
+    });
 });
 
-
-
-$(window).on("load",function (){
-     
-        $('.load-wrapp ').fadeOut(100);  
-
-});
-
-
-$(document).ready(function() {
-    $('a[href^="#"]').click(function() {
-      var destino = $(this.hash);
-      if (destino.length == 0) {
-        destino = $('a[name="' + this.hash.substr(1) + '"]');
-      }
-      if (destino.length == 0) {
-        destino = $('html');
-      }
-      $('html, body').animate({ scrollTop: destino.offset().top }, 1100);
-      return false;
+function sumar () {
+    var total = $('#total');
+    total.val($('#total').attr('attr-precio'));
+    $('.gridCheck').each(function(){
+        if($(this).hasClass('gridCheck')){
+            total.val(($(this).is(':checked') ? parseFloat($(this).attr('attr-precio')):0) + parseFloat(total.val()));
+        }else{
+            total.val(parseFloat(total.val()) + (isNaN(parseFloat($(this).val())) ? 0 : parseFloat($(this).val())));
+        };
     });
-  });
-
+    // var totalPart = parseFloat(total.val()).toFixed(2).split('.');
+    // tot.val('$' + totalParts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '.' +  (totalParts.length > 1 ? totalParts[1] : '00')); 
+}sumar();
 
