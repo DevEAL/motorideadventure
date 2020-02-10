@@ -45,9 +45,9 @@ p {
   position: relative; }
 
 .title::after, .title::before {
+  content: "";
   border-bottom: 4px solid #2A5467;
   bottom: 50%;
-  content: "";
   margin: 0 5px;
   position: absolute;
   width: 20px; }
@@ -67,28 +67,19 @@ p {
     color: #ffffff !important; }
 
 .navbar-toggler-icon {
+  content: "";
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
   color: #ffffff !important; }
 
 .navbar-collapse {
   padding-right: 10px; }
-  @media (max-width: 992px) {
-    .navbar-collapse li {
-      margin-right: 10px; } }
 
 .home {
-  height: 100%; }
-  @media (max-width: 1200px) {
-    .home {
-      max-height: 800px; } }
-  @media (max-width: 400px) {
-    .home {
-      max-height: 600px; } }
+  margin-bottom: 5%; }
   .home nav {
     padding: 0%;
     margin: 0;
@@ -106,149 +97,52 @@ p {
     padding-right: 0%; }
   .home .nav-item-links {
     text-align: right !important; }
-  .home .text-home {
-    padding-top: 12%;
-    position: absolute;
-    left: 10%;
-    z-index: 2; }
-    .home .text-home h1 {
-      color: #FFFFFF;
-      text-shadow: 1px 1px 3px #000000;
-      line-height: 62px;
-      font-size: 2.5rem;
-      font-weight: 700; }
-    @media (max-width: 1200px) {
-      .home .text-home h1 {
-        font-size: 2rem;
-        padding: 20px 5px; } }
-    .home .text-home .text-home-sub {
-      font-size: 2.20rem;
-      font-weight: 500; }
-  @media (max-width: 1200px) {
-    .home .text-home {
-      padding-top: 25%; } }
-  @media (max-width: 768px) {
-    .home .text-home {
-      padding-top: 35%;
-      left: 0; }
-      .home .text-home h1 {
-        line-height: 50px; } }
-  .home .carouselHome {
-    position: relative; }
-    .home .carouselHome .carousel-item {
-      height: 100vh;
-      min-height: 300px;
-      background: no-repeat center center scroll;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; }
-  @media (max-width: 1200px) {
-    .home .carouselHome {
-      position: relative;
-      top: -20px; }
-      .home .carouselHome .carousel-item {
-        height: 100%;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; } }
+
+.text-home {
+  padding-top: 12%;
+  position: absolute;
+  left: 10%;
+  z-index: 2; }
+  .text-home h1 {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px #000000;
+    line-height: 62px;
+    font-size: 2.5rem;
+    font-weight: 700; }
+  .text-home .text-home-sub {
+    font-size: 2.20rem;
+    font-weight: 500; }
+
+.carouselHome {
+  position: relative; }
+  .carouselHome .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 #textura-sepador .content-bg {
-  margin-top: -400px;
+  width: 100%;
+  left: 0;
+  bottom: -1%;
   position: absolute; }
-@media (max-width: 1500px) {
-  #textura-sepador .content-bg {
-    margin-top: -300px; } }
-@media (max-width: 1128px) {
-  #textura-sepador .content-bg {
-    margin-top: -200px; } }
-@media (max-width: 1025px) {
-  #textura-sepador .content-bg {
-    margin-top: -161px; } }
-@media (max-width: 500px) {
-  #textura-sepador .content-bg {
-    margin-top: -100px; } }
-@media (max-width: 400px) {
-  #textura-sepador .content-bg {
-    margin-top: -90px; } }
-
-.video-bg {
-  text-align: center; }
-
-section #videos {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-
-#videos .top-cut-grey {
-  padding-bottom: 25%; }
-
-#videos .bottom-cut-white {
-  color: #fff;
-  padding-top: 10%; }
-
-.video-background {
-  padding: 0px;
-  position: relative;
-  overflow: hidden; }
-
-.video-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  z-index: 0; }
-
-@media (max-width: 1024px) {
-  .top-cut-grey,
-  .bottom-cut-white {
-    padding: 0px;
-    border: 0px; } }
-.video-wrapper iframe {
-  width: 100%;
-  height: 160%; }
-
-.modal-full {
-  min-width: 100%;
-  margin: 0; }
-
-.modal-full .modal-content {
-  min-height: 100vh; }
 
 .video-container {
-  padding: 0; }
-  .video-container iframe {
+  --video--width: 1920;
+  --video--height: 1080;
+  position: relative;
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+  overflow: hidden;
+  max-width: 100%; }
+  .video-container iframe, .video-container object, .video-container object {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 120%; }
-  @media (max-width: 1550px) {
-    .video-container iframe {
-      width: 100%;
-      height: 100%; } }
-  @media (max-width: 1380px) {
-    .video-container iframe {
-      width: 100%;
-      height: 85%; } }
-  @media (max-width: 1150px) {
-    .video-container iframe {
-      width: 100%;
-      height: 70%; } }
-  @media (max-width: 910px) {
-    .video-container iframe {
-      width: 100%;
-      height: 60%; } }
-  @media (max-width: 790px) {
-    .video-container iframe {
-      width: 100%;
-      height: 50%; } }
-  @media (max-width: 620px) {
-    .video-container iframe {
-      width: 100%;
-      height: 40%; } }
-  @media (max-width: 414px) {
-    .video-container iframe {
-      width: 100%;
-      height: 30%; } }
+    height: 100%; }
 
 .tours {
   background: url("../images/textura/textura_tours_2.jpg") no-repeat center center;
@@ -256,7 +150,7 @@ section #videos {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: 1%; }
+  margin-bottom: 4rem; }
   .tours .content-title {
     text-align: center; }
   .tours .content-subtitle h2 {
@@ -271,46 +165,20 @@ section #videos {
       font-weight: 300;
       font-size: 1rem;
       color: #2A5467; }
-    @media (max-width: 768px) {
-      .tours .parrafos {
-        padding-right: 10px; } }
   .tours .content-tours {
     margin-top: 5%; }
-
-.map-point {
-  color: #285468; }
-  .map-point i:hover {
-    color: #2CAB6A; }
-
-.ubi-1 {
-  position: absolute;
-  top: 38%;
-  left: 70%; }
-  @media (max-width: 1024px) {
-    .ubi-1 {
-      top: 27%;
-      left: 63%; } }
-  @media (max-width: 991px) {
-    .ubi-1 {
-      top: 33%;
-      left: 64%; } }
-  @media (max-width: 767px) {
-    .ubi-1 {
-      top: 35%;
-      left: 67%; } }
-
-.ubi-2 {
-  position: absolute;
-  top: 53%;
-  left: 50%; }
-  @media (max-width: 1024px) {
-    .ubi-2 {
-      top: 54%;
-      left: 50%; } }
-  @media (max-width: 767px) {
-    .ubi-2 {
-      top: 56%;
-      left: 50%; } }
+  .tours .ubi-1 {
+    position: absolute;
+    top: 38%;
+    left: 70%; }
+  .tours .ubi-2 {
+    position: absolute;
+    top: 53%;
+    left: 50%; }
+  .tours .map-point {
+    color: #285468; }
+    .tours .map-point i:hover {
+      color: #2CAB6A; }
 
 .ubi-3 {
   position: absolute;
@@ -510,7 +378,10 @@ section #videos {
 
 @media (max-width: 400px) {
   .card-bg .content-card {
-    background: #285468a9; } }
+    background: #285468a9; }
+
+  .new-tours .card-tour .card-bg .content-card:before {
+    display: none; } }
 .project-block .content {
   padding: 15px;
   width: 60%;
@@ -704,7 +575,7 @@ section #videos {
   cursor: pointer; }
 
 #rental {
-  margin-top: 5%; }
+  margin-bottom: 4rem; }
   #rental .container {
     padding-left: 0; }
   #rental .card {
@@ -1046,5 +917,61 @@ label {
 
 .floating-wpp {
   z-index: 9999; }
+
+@media (max-width: 1200px) {
+  .text-home {
+    padding-top: 25%; }
+    .text-home h1 {
+      font-size: 2rem;
+      padding: 20px 5px; } }
+@media (max-width: 1024px) {
+  .home {
+    margin-bottom: 0; }
+
+  .video-container {
+    padding-top: 140px; }
+
+  .ubi-1 {
+    top: 27%;
+    left: 63%; }
+
+  .ubi-2 {
+    top: 54%;
+    left: 50%; }
+
+  .carouselHome .carousel-item {
+    height: 60vh; } }
+@media (max-width: 992px) {
+  .navbar-collapse li {
+    margin-right: 10px; }
+
+  .ubi-1 {
+    top: 33%;
+    left: 64%; } }
+@media (max-width: 768px) {
+  .tours .parrafos {
+    padding-right: 10px; }
+
+  .ubi-1 {
+    top: 35%;
+    left: 67%; }
+
+  .ubi-2 {
+    top: 56%;
+    left: 50%; }
+
+  .text-home {
+    padding-top: 20%;
+    left: 0; }
+    .text-home h1 {
+      line-height: 40px; } }
+@media (max-width: 450px) {
+  .text-home {
+    padding-top: 30%; }
+    .text-home h1 {
+      font-size: 22px;
+      line-height: 28px; }
+      .text-home h1 .text-home-sub {
+        font-size: 22px; } }
 
 /*# sourceMappingURL=syle.css.map */
