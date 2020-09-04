@@ -65,15 +65,15 @@ $( document ).ready(function() {
                 nav:false
             },
             700:{
-                items:2,
+                items:1,
                 nav:false
             },
-            900:{
+            768:{
                 items:2,
                 nav:true
             },
             1000:{
-                items:3,
+                items:2,
                 nav:false
             },
             1200:{
@@ -146,5 +146,8 @@ function sumar () {
     });
     // var totalPart = parseFloat(total.val()).toFixed(2).split('.');
     // tot.val('$' + totalParts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '.' +  (totalParts.length > 1 ? totalParts[1] : '00')); 
-}sumar();
+}
+sumar();
 
+const date = new Date();
+document.getElementById('dateCopy').innerHTML = date.getFullYear();

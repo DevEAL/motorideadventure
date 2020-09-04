@@ -1,0 +1,937 @@
+<html lang="en"><head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_tours.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="js/dist/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <!-- <link rel="stylesheet" href="css/gallery-grid.css"> -->
+
+  <link rel="shortcut icon" href="images/motoraid-favicon.ico?crc=404587263"/>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134387595-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134387595-1');
+  </script>
+
+  <link rel="stylesheet" href="chatWp/floating-wpp.min.css">
+  
+  <title>Motoraid</title>
+
+  <script src='https://www.google.com/recaptcha/api.js?render=6Le79Y0UAAAAAPpYvqv3sb8544w-lUk5S0irrsQx'></script>
+</head>
+<body data-spy="scroll" data-target="#fm-nav" >
+
+<header>
+  <section class="home">  
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark main-nav ">
+      <div class="container d-flex justify-content-around">
+        <div class="logo">
+          <a class="navbar-brand" href="./">
+            <img src="images/logo.png" alt="">
+          </a>
+        </div>                
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse nav-item-links collapse fm-nav" id="navbarResponsive">
+              <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#tours" id="btn-tours" data-lang="tours">Tours</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./" id="btn-rental" data-lang="rental">Rental</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#gallery" id="btn-gallery" data-lang="gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="./" id="btn-tours" data-lang="experiences">Experiences</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#allies" id="btn-allies" data-lang="allies">Allies</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#contact" id="btn-contact" data-lang="contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://es-la.facebook.com/MotoRaidAdventure/" target="_blank"><img src="images/svg pegado 32x32_poster_.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://www.instagram.com/motoraidadventure/" target="_blank"><img src="images/svg pegado 32x32_poster_2.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://twitter.com/motoraid_adv" target="_blank"><img src="images/svg pegado 32x32_poster_3.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://www.ktm.com/co/" target="_blank"><img src="images/ktm_link.png" alt=""></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang="langu">
+                      Language
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="d-inline-flex ">
+                        <a data-text="English" data-file="en" data-index="0" id="translate_en" class="dropdown-item" href="#" data-lang="english">English</a>
+                        <img class="img-fluid align-self-center ml-auto p-1" src="images/united-states.png" alt="">
+                      </div>
+                      <div class="d-inline-flex">
+                        <a data-text="Español" data-file="es" data-index="1" id="translate_es" class="dropdown-item" href="#" data-lang="spanish">Spanish</a>
+                        <img class="img-fluid align-self-center" src="images/spain.png" alt="">
+                      </div>
+                      <div class="d-inline-flex">
+                        <a data-text="German" data-file="de" data-index="2" id="translate_de" class="dropdown-item" href="#" data-lang="german">German</a>
+                        <img class="img-fluid align-self-center" src="images/germany.png" alt="">
+                      </div>
+                    </div>
+                </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div id="tours" class="container-fluid ">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 description"> 
+          <h1>CAÑO CRISTALES</h1>
+          <p data-lang="caño">The seven-color river or the most beautiful in the world, are two of the names used to recognize this magnificent site situated in mountain rage of La Macarena. In this adventure, we invite you to travel around the jungle of the Eastern Plains towards this Natural Reserve, a real challenge.</p>
+          <div class="row d-flex justify-content-around d-sm-inline-flex characteristics">
+            <div class="col-md-6 col-sm-12">
+                <img class="map img-fluid" src="images/mapas/map_cano.png" alt="destiny#2">
+            </div>
+            <div class="col-md-6 col-sm-12 align-self-center">
+              <p class="box-parrafos">
+              <B>ONROAD:</B>  &nbsp; 2500 KM 
+              <br>
+              <B>OFFROAD:</B>  &nbsp;  0 KM<br>
+              <span data-lang="dur-caño2"><B>DURATION:</B>  &nbsp;  13 DAYS <small>(3 RESTING DAYS)</small></span>
+              <br>
+              <span data-lang="diff2"><B>DIFFICULTY:</B> &nbsp;</span>
+              <i class="fas "> <img src="images/svg-pegado-32565x33.png" alt=""></i> 
+              <i class="fas "> <img src="images/svg-pegado-32565x33.png" alt=""></i> 
+              <i class="fas "> <img src="images/svg-pegado-32565x33.png" alt=""></i> 
+              <i class="fas "> <img src="images/svg-pegado-32565x33.png" alt=""></i> 
+              <i class="fas "> <img src="images/svg-pegado-32565x33.png" alt=""></i> 
+              <br><br>
+              <span data-lang="terr-caño">Mud, water crossings, rocks and gravel </span>             
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row d-flex justify-content-center">
+            <div class="pt-2 down align-self-center animated infinite fadeInDown delay-1s slow">
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+          
+          <div class="contenido" data-lang="caño-cont">
+            <p class="dia"><span>DAY OF ARRIVAL.- </span>After a long trip and bearing in mind all that it is to come, we have planned an arrival day in Bogotá, for you to get used to its height and climate.</p>
+            <p class="dia"><span>DAY 1.- </span>In order for you to get to know our capital, Bogotá, this day will be dedicated to do a little tourism with a hired city tour. Nonetheless, the remaining time will be used to set up the motor bikes for the expedition. </p>
+            <p class="dia"><span>DAY 2.- </span>Bogotá – Villavieja. We will start the adventure from Bogotá with an overall on road route, towards the beautiful desert of La Tatacoa, there we will spend the night in a very special place. </p>
+            <p class="dia"><span>AYy 3.- </span>Villavieja – La Uribe. This is a tough day, in which we will be crossing the Eastern Mountain Range arriving to the Plains situated in La Macarena. </p>
+            <p class="dia"><span>Day 4.- </span>La Uribe – La Macarena. We can say that because of the landscape and the challenge it conveys, this will be the most beautiful day of them all. With a very pleasant route for the motorbikes in maxitrail, we will be crossing the jungle along the Tinigua National Nature Park making it possible to enjoy the animal life of the region. Additionally, it will be necessary to make use of a ferry twice in order to advance in the Guayabero River. 
+            <br><br>
+            The total off road distance will be 222 kilometers, it being the roughest day in which we will also have to count the fatigue of the previous day.</p>
+            <p class="dia"><span>DAY 5.- </span>La Macarena. The National Park of La Macarena, well how many more explanations do you need?
+            <br><br>
+            This is one of the natural wonders of the country, because of its uniqueness everyone should give themselves the opportunity to go at least once in their lifetime.
+            </p>
+            <p class="dia"><span>DAY 6.- </span>La Macarena – La Macarena. With the use of the motorbikes we will be doing a round trip to visit Caño Canoas, another beautiful geographical accident and in the evening, we will be returning to the hotel.</p>
+            <p class="dia"><span>DAY 7.- </span>La Macarena – Florencia. This day is kind of a mesh between off and on road. On the first track, having San Vicente del Caguán as the end point, we will travel 153 kilometers of dirt road, however, we will finish the day in Florencia travelling through a paved road.</p>
+            <p class="dia"><span>DAY 8.- </span>Florencia – San Agustín. To compensate the efforts of the previous days we will have a 100% paved road, in order to get to the most important archaeological zone of the country.</p>
+            <p class="dia"><span>Day 9.- </span>San Agustín. We will make use of this day for tourism, with a route of only a 100 kilometers we will get to know the zone and its most important sites.</p>
+            <p class="dia"><span>DAY 10.- </span>San Agustín – Villavieja. Remember were we started our adventure? Well, there is where we will be going to rest in our last day before heading back to Bogotá. </p>
+            <p class="dia"><span>DAY 11.- </span>Villavieja – Bogotá. </p>
+          </div>
+          <div class="precios">
+            <div class="col-md-12 d-flex justify-content-center mb-5">
+              <button type="button" class="btn buy-now" id="altern" data-lang="buy-now">BUY NOW</button>
+            </div>
+
+            <p>
+              <span data-lang="cost-adv">Cost of the Adventure</span><br>
+              <span data-lang="caño-days">14 Days / 13 Nights from:</span> 
+            </p>
+            <div class="costos">
+              <h2>MotoRaid Adventure</h2>
+              <p>Adventure: <span>Caño Cristales</span></p>
+              <p class="valor-en" data-lang="cost-in">Cost in: &nbsp;&nbsp;&nbsp;&nbsp;<Span>Dolars</Span></p>
+
+              <table class="table">
+                <thead>
+                  <tr class="table-active">
+                    <th scope="col" data-lang="terr-port">Terrestrial Portion </th>
+                    <th>$2,968</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><span data-lang="moto-rent">Motorbike Rental</span>  KTM 692 Enduro R</th>
+                    <td>$1,178</td>
+                    <td>$4,100</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><span data-lang="moto-rent">Motorbike Rental</span>  KTM 1090 Adventure</th>
+                    <td>$1,499</td>
+                    <td >$4,500</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><span data-lang="moto-rent">Motorbike Rental</span>  KTM 1090 Adventure R</th>
+                    <td>$1,607</td>
+                    <td>$4,600</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><span data-lang="moto-rent">Motorbike Rental</span> KTM 1190 Adventure R</th>
+                    <td>$1,714</td>
+                    <td>$4,700</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><span data-lang="moto-rent">Motorbike Rental</span> KTM 1290 Super AdventureR</th>
+                    <td>$1,874</td>
+                    <td>$4,800</td>
+                  </tr>
+                </tbody>
+              </table> 
+            </div>
+
+            <div id="reply" style="display:none">
+              <div class="total">
+                <form role="form2" id="Cotizar" action="php/cotizar.php" method="POST">
+                  <!-- Personal -->
+                  <div class="form-row d-flex justify-content-center p-4">
+                    <h2 class="col-sm-12 mb-5 mt-3" data-lang="quote1">QUOTE</h2>
+                    <div class="form-group col-md-6 pl-3">
+                      <label for="name_2" data-lang="c-name">Name:</label>
+                      <input type="text" class="form-control mb-2" id="name_2" name="name_2" placeholder="Name" required>
+
+                      <label for="phone_2" data-lang="c-phone">Phone:</label>
+                      <input type="number" class="form-control mb-2" id="phone_2" name="phone_2" placeholder="Phone" required>
+
+                      <label for="email_2" data-lang="c-email">Email:</label>
+                      <input type="email" class="form-control" id="email_2" name="email_2" placeholder="Email" required>
+                    </div>
+                    <div class="form-group col-md-6 pl-3">
+                        <label for="message_2" data-lang="c-message">Message:</label>
+                        <textarea class="form-control" id="message_2" name="message_2" placeholder="Enter Message" rows="7"></textarea>
+                    </div>
+
+                    <label class="pr-4" for="pais" data-lang="c-pais">Country:</label>
+                    <select  id="pais" name="pais">
+                      <option value="Elegir" id="AF" data-lang="pais-se">Choose an option</option>
+                      <option value="Afganistán" id="AF">Afganistán</option>
+                      <option value="Albania" id="AL">Albania</option>
+                      <option value="Alemania" id="DE">Alemania</option>
+                      <option value="Andorra" id="AD">Andorra</option>
+                      <option value="Angola" id="AO">Angola</option>
+                      <option value="Anguila" id="AI">Anguila</option>
+                      <option value="Antártida" id="AQ">Antártida</option>
+                      <option value="Antigua y Barbuda" id="AG">Antigua y Barbuda</option>
+                      <option value="Antillas holandesas" id="AN">Antillas holandesas</option>
+                      <option value="Arabia Saudí" id="SA">Arabia Saudí</option>
+                      <option value="Argelia" id="DZ">Argelia</option>
+                      <option value="Argentina" id="AR">Argentina</option>
+                      <option value="Armenia" id="AM">Armenia</option>
+                      <option value="Aruba" id="AW">Aruba</option>
+                      <option value="Australia" id="AU">Australia</option>
+                      <option value="Austria" id="AT">Austria</option>
+                      <option value="Azerbaiyán" id="AZ">Azerbaiyán</option>
+                      <option value="Bahamas" id="BS">Bahamas</option>
+                      <option value="Bahrein" id="BH">Bahrein</option>
+                      <option value="Bangladesh" id="BD">Bangladesh</option>
+                      <option value="Barbados" id="BB">Barbados</option>
+                      <option value="Bélgica" id="BE">Bélgica</option>
+                      <option value="Belice" id="BZ">Belice</option>
+                      <option value="Benín" id="BJ">Benín</option>
+                      <option value="Bermudas" id="BM">Bermudas</option>
+                      <option value="Bhután" id="BT">Bhután</option>
+                      <option value="Bielorrusia" id="BY">Bielorrusia</option>
+                      <option value="Birmania" id="MM">Birmania</option>
+                      <option value="Bolivia" id="BO">Bolivia</option>
+                      <option value="Bosnia y Herzegovina" id="BA">Bosnia y Herzegovina</option>
+                      <option value="Botsuana" id="BW">Botsuana</option>
+                      <option value="Brasil" id="BR">Brasil</option>
+                      <option value="Brunei" id="BN">Brunei</option>
+                      <option value="Bulgaria" id="BG">Bulgaria</option>
+                      <option value="Burkina Faso" id="BF">Burkina Faso</option>
+                      <option value="Burundi" id="BI">Burundi</option>
+                      <option value="Cabo Verde" id="CV">Cabo Verde</option>
+                      <option value="Camboya" id="KH">Camboya</option>
+                      <option value="Camerún" id="CM">Camerún</option>
+                      <option value="Canadá" id="CA">Canadá</option>
+                      <option value="Chad" id="TD">Chad</option>
+                      <option value="Chile" id="CL">Chile</option>
+                      <option value="China" id="CN">China</option>
+                      <option value="Chipre" id="CY">Chipre</option>
+                      <option value="Ciudad estado del Vaticano" id="VA">Ciudad estado del Vaticano</option>
+                      <option value="Colombia" id="CO">Colombia</option>
+                      <option value="Comores" id="KM">Comores</option>
+                      <option value="Congo" id="CG">Congo</option>
+                      <option value="Corea" id="KR">Corea</option>
+                      <option value="Corea del Norte" id="KP">Corea del Norte</option>
+                      <option value="Costa del Marfíl" id="CI">Costa del Marfíl</option>
+                      <option value="Costa Rica" id="CR">Costa Rica</option>
+                      <option value="Croacia" id="HR">Croacia</option>
+                      <option value="Cuba" id="CU">Cuba</option>
+                      <option value="Dinamarca" id="DK">Dinamarca</option>
+                      <option value="Djibouri" id="DJ">Djibouri</option>
+                      <option value="Dominica" id="DM">Dominica</option>
+                      <option value="Ecuador" id="EC">Ecuador</option>
+                      <option value="Egipto" id="EG">Egipto</option>
+                      <option value="El Salvador" id="SV">El Salvador</option>
+                      <option value="Emiratos Arabes Unidos" id="AE">Emiratos Arabes Unidos</option>
+                      <option value="Eritrea" id="ER">Eritrea</option>
+                      <option value="Eslovaquia" id="SK">Eslovaquia</option>
+                      <option value="Eslovenia" id="SI">Eslovenia</option>
+                      <option value="España" id="ES">España</option>
+                      <option value="Estados Unidos" id="US">Estados Unidos</option>
+                      <option value="Estonia" id="EE">Estonia</option>
+                      <option value="c" id="ET">Etiopía</option>
+                      <option value="Ex-República Yugoslava de Macedonia" id="MK">Ex-República Yugoslava de Macedonia</option>
+                      <option value="Filipinas" id="PH">Filipinas</option>
+                      <option value="Finlandia" id="FI">Finlandia</option>
+                      <option value="Francia" id="FR">Francia</option>
+                      <option value="Gabón" id="GA">Gabón</option>
+                      <option value="Gambia" id="GM">Gambia</option>
+                      <option value="Georgia" id="GE">Georgia</option>
+                      <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y las islas Sandwich del Sur</option>
+                      <option value="Ghana" id="GH">Ghana</option>
+                      <option value="Gibraltar" id="GI">Gibraltar</option>
+                      <option value="Granada" id="GD">Granada</option>
+                      <option value="Grecia" id="GR">Grecia</option>
+                      <option value="Groenlandia" id="GL">Groenlandia</option>
+                      <option value="Guadalupe" id="GP">Guadalupe</option>
+                      <option value="Guam" id="GU">Guam</option>
+                      <option value="Guatemala" id="GT">Guatemala</option>
+                      <option value="Guayana" id="GY">Guayana</option>
+                      <option value="Guayana francesa" id="GF">Guayana francesa</option>
+                      <option value="Guinea" id="GN">Guinea</option>
+                      <option value="Guinea Ecuatorial" id="GQ">Guinea Ecuatorial</option>
+                      <option value="Guinea-Bissau" id="GW">Guinea-Bissau</option>
+                      <option value="Haití" id="HT">Haití</option>
+                      <option value="Holanda" id="NL">Holanda</option>
+                      <option value="Honduras" id="HN">Honduras</option>
+                      <option value="Hong Kong R. A. E" id="HK">Hong Kong R. A. E</option>
+                      <option value="Hungría" id="HU">Hungría</option>
+                      <option value="India" id="IN">India</option>
+                      <option value="Indonesia" id="ID">Indonesia</option>
+                      <option value="Irak" id="IQ">Irak</option>
+                      <option value="Irán" id="IR">Irán</option>
+                      <option value="Irlanda" id="IE">Irlanda</option>
+                      <option value="Isla Bouvet" id="BV">Isla Bouvet</option>
+                      <option value="Isla Christmas" id="CX">Isla Christmas</option>
+                      <option value="Isla Heard e Islas McDonald" id="HM">Isla Heard e Islas McDonald</option>
+                      <option value="Islandia" id="IS">Islandia</option>
+                      <option value="Islas Caimán" id="KY">Islas Caimán</option>
+                      <option value="Islas Cook" id="CK">Islas Cook</option>
+                      <option value="Islas de Cocos o Keeling" id="CC">Islas de Cocos o Keeling</option>
+                      <option value="Islas Faroe" id="FO">Islas Faroe</option>
+                      <option value="Islas Fiyi" id="FJ">Islas Fiyi</option>
+                      <option value="Islas Malvinas Islas Falkland" id="FK">Islas Malvinas Islas Falkland</option>
+                      <option value="Islas Marianas del norte" id="MP">Islas Marianas del norte</option>
+                      <option value="Islas Marshall" id="MH">Islas Marshall</option>
+                      <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos</option>
+                      <option value="Islas Palau" id="PW">Islas Palau</option>
+                      <option value="Islas Salomón" d="SB">Islas Salomón</option>
+                      <option value="Islas Tokelau" id="TK">Islas Tokelau</option>
+                      <option value="Islas Turks y Caicos" id="TC">Islas Turks y Caicos</option>
+                      <option value="Islas Vírgenes EE.UU." id="VI">Islas Vírgenes EE.UU.</option>
+                      <option value="Islas Vírgenes Reino Unido" id="VG">Islas Vírgenes Reino Unido</option>
+                      <option value="Israel" id="IL">Israel</option>
+                      <option value="Italia" id="IT">Italia</option>
+                      <option value="Jamaica" id="JM">Jamaica</option>
+                      <option value="Japón" id="JP">Japón</option>
+                      <option value="Jordania" id="JO">Jordania</option>
+                      <option value="Kazajistán" id="KZ">Kazajistán</option>
+                      <option value="Kenia" id="KE">Kenia</option>
+                      <option value="Kirguizistán" id="KG">Kirguizistán</option>
+                      <option value="Kiribati" id="KI">Kiribati</option>
+                      <option value="Kuwait" id="KW">Kuwait</option>
+                      <option value="Laos" id="LA">Laos</option>
+                      <option value="Lesoto" id="LS">Lesoto</option>
+                      <option value="Letonia" id="LV">Letonia</option>
+                      <option value="Líbano" id="LB">Líbano</option>
+                      <option value="Liberia" id="LR">Liberia</option>
+                      <option value="Libia" id="LY">Libia</option>
+                      <option value="Liechtenstein" id="LI">Liechtenstein</option>
+                      <option value="Lituania" id="LT">Lituania</option>
+                      <option value="Luxemburgo" id="LU">Luxemburgo</option>
+                      <option value="Macao R. A. E" id="MO">Macao R. A. E</option>
+                      <option value="Madagascar" id="MG">Madagascar</option>
+                      <option value="Malasia" id="MY">Malasia</option>
+                      <option value="Malawi" id="MW">Malawi</option>
+                      <option value="Maldivas" id="MV">Maldivas</option>
+                      <option value="Malí" id="ML">Malí</option>
+                      <option value="Malta" id="MT">Malta</option>
+                      <option value="Marruecos" id="MA">Marruecos</option>
+                      <option value="Martinica" id="MQ">Martinica</option>
+                      <option value="Mauricio" id="MU">Mauricio</option>
+                      <option value="Mauritania" id="MR">Mauritania</option>
+                      <option value="Mayotte" id="YT">Mayotte</option>
+                      <option value="México" id="MX">México</option>
+                      <option value="Micronesia" id="FM">Micronesia</option>
+                      <option value="Moldavia" id="MD">Moldavia</option>
+                      <option value="Mónaco" id="MC">Mónaco</option>
+                      <option value="Mongolia" id="MN">Mongolia</option>
+                      <option value="Montserrat" id="MS">Montserrat</option>
+                      <option value="Mozambique" id="MZ">Mozambique</option>
+                      <option value="Namibia" id="NA">Namibia</option>
+                      <option value="Nauru" id="NR">Nauru</option>
+                      <option value="Nepal" id="NP">Nepal</option>
+                      <option value="Nicaragua" id="NI">Nicaragua</option>
+                      <option value="Níger" id="NE">Níger</option>
+                      <option value="Nigeria" id="NG">Nigeria</option>
+                      <option value="Niue" id="NU">Niue</option>
+                      <option value="Norfolk" id="NF">Norfolk</option>
+                      <option value="Noruega" id="NO">Noruega</option>
+                      <option value="Nueva Caledonia" id="NC">Nueva Caledonia</option>
+                      <option value="Nueva Zelanda" id="NZ">Nueva Zelanda</option>
+                      <option value="Omán" id="OM">Omán</option>
+                      <option value="Panamá" id="PA">Panamá</option>
+                      <option value="Papua Nueva Guinea" id="PG">Papua Nueva Guinea</option>
+                      <option value="Paquistán" id="PK">Paquistán</option>
+                      <option value="Paraguay" id="PY">Paraguay</option>
+                      <option value="Perú" id="PE">Perú</option>
+                      <option value="Pitcairn" id="PN">Pitcairn</option>
+                      <option value="Polinesia francesa" id="PF">Polinesia francesa</option>
+                      <option value="Polonia" id="PL">Polonia</option>
+                      <option value="Portugal" id="PT">Portugal</option>
+                      <option value="Puerto Rico" id="PR">Puerto Rico</option>
+                      <option value="Qatar" id="QA">Qatar</option>
+                      <option value="Reino Unido" id="UK">Reino Unido</option>
+                      <option value="República Centroafricana" id="CF">República Centroafricana</option>
+                      <option value="República Checa" id="CZ">República Checa</option>
+                      <option value="República de Sudáfrica" id="ZA">República de Sudáfrica</option>
+                      <option value="República Democrática del Congo Zaire" id="CD">República Democrática del Congo Zaire</option>
+                      <option value="República Dominicana" id="DO">República Dominicana</option>
+                      <option value="Reunión" id="RE">Reunión</option>
+                      <option value="Ruanda" id="RW">Ruanda</option>
+                      <option value="Rumania" id="RO">Rumania</option>
+                      <option value="Rusia" id="RU">Rusia</option>
+                      <option value="Samoa" id="WS">Samoa</option>
+                      <option value="Samoa occidental" id="AS">Samoa occidental</option>
+                      <option value="San Kitts y Nevis" id="KN">San Kitts y Nevis</option>
+                      <option value="San Marino" id="SM">San Marino</option>
+                      <option value="San Pierre y Miquelon" id="PM">San Pierre y Miquelon</option>
+                      <option value="San Vicente e Islas Granadinas" id="VC">San Vicente e Islas Granadinas</option>
+                      <option value="Santa Helena" id="SH">Santa Helena</option>
+                      <option value="Santa Lucía" id="LC">Santa Lucía</option>
+                      <option value="Santo Tomé y Príncipe" id="ST">Santo Tomé y Príncipe</option>
+                      <option value="Senegal" id="SN">Senegal</option>
+                      <option value="Serbia y Montenegro" id="YU">Serbia y Montenegro</option>
+                      <option value="Sychelles" id="SC">Seychelles</option>
+                      <option value="Sierra Leona" id="SL">Sierra Leona</option>
+                      <option value="Singapur" id="SG">Singapur</option>
+                      <option value="Siria" id="SY">Siria</option>
+                      <option value="Somalia" id="SO">Somalia</option>
+                      <option value="Sri Lanka" id="LK">Sri Lanka</option>
+                      <option value="Suazilandia" id="SZ">Suazilandia</option>
+                      <option value="Sudán" id="SD">Sudán</option>
+                      <option value="Suecia" id="SE">Suecia</option>
+                      <option value="Suiza" id="CH">Suiza</option>
+                      <option value="Surinam" id="SR">Surinam</option>
+                      <option value="Svalbard" id="SJ">Svalbard</option>
+                      <option value="Tailandia" id="TH">Tailandia</option>
+                      <option value="Taiwán" id="TW">Taiwán</option>
+                      <option value="Tanzania" id="TZ">Tanzania</option>
+                      <option value="Tayikistán" id="TJ">Tayikistán</option>
+                      <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos del océano Indico</option>
+                      <option value="Territorios franceses del sur" id="TF">Territorios franceses del sur</option>
+                      <option value="Timor Oriental" id="TP">Timor Oriental</option>
+                      <option value="Togo" id="TG">Togo</option>
+                      <option value="Tonga" id="TO">Tonga</option>
+                      <option value="Trinidad y Tobago" id="TT">Trinidad y Tobago</option>
+                      <option value="Túnez" id="TN">Túnez</option>
+                      <option value="Turkmenistán" id="TM">Turkmenistán</option>
+                      <option value="Turquía" id="TR">Turquía</option>
+                      <option value="Tuvalu" id="TV">Tuvalu</option>
+                      <option value="Ucrania" id="UA">Ucrania</option>
+                      <option value="Uganda" id="UG">Uganda</option>
+                      <option value="Uruguay" id="UY">Uruguay</option>
+                      <option value="Uzbekistán" id="UZ">Uzbekistán</option>
+                      <option value="Vanuatu" id="VU">Vanuatu</option>
+                      <option value="Venezuela" id="VE">Venezuela</option>
+                      <option value="Vietnam" id="VN">Vietnam</option>
+                      <option value="Wallis y Futuna" id="WF">Wallis y Futuna</option>
+                      <option value="Yemen" id="YE">Yemen</option>
+                      <option value="Zambia" id="ZM">Zambia</option>
+                      <option value="Zimbabue" id="ZW">Zimbabue</option>
+                    </select>
+
+                  </div>
+                  <div class="form-group row d-flex justify-content-center pl-4 p-1">
+                    <!-- RENT MOTORCYCLE -->
+                    <div class="col-sm-6 mt-3">
+                      <h5 class="mb-4" data-lang="do-you">DO YOU WANT TO RENT A MOTORCYCLE ?</h3>
+                      <div class="form-check">
+                        <input class="form-check-input gridCheck" name="moto[]" value="KTM 690 Enduro R" type="checkbox" id="check1" attr-precio="1130">
+                        <label class="form-check-label" for="check1">
+                          KTM 690 Enduro R
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input gridCheck" name="moto[]" value="KTM 1090 Adventure" type="checkbox" id="check2" attr-precio="1530">
+                        <label class="form-check-label" for="check2">
+                            KTM 1090 Adventure
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input gridCheck" name="moto[]" value="KTM 1090 Adventure R" type="checkbox" id="check3" attr-precio="1630">
+                        <label class="form-check-label" for="check3">
+                            KTM 1090 Adventure R
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input gridCheck" name="moto[]" value="KTM 1190 Adventure R" type="checkbox" id="check4" attr-precio="1730">
+                        <label class="form-check-label" for="check4">
+                            KTM 1190 Adventure R
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input gridCheck" name="moto[]" value="KTM 1290 Super Adventure R" type="checkbox" id="check5" attr-precio="1830">
+                        <label class="form-check-label" for="check5">
+                            KTM 1290 Super Adventure R
+                        </label>
+                      </div>
+                    </div>
+                    <!-- PARTNER -->
+                    <div class="col-sm-5 mt-3">
+                      <h5 class="mb-4" data-lang="will-you">WILL YOU GO WITH A PARTNER ?</h3>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="radio1" value="YES">
+                        <label class="form-check-label" for="radio1" data-lang="ratio-y">
+                          YES 
+                        </label><i class="fas fa-user-friends ml-3"></i> 
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="radio2" value="NO" checked>
+                        <label class="form-check-label" for="radio2" data-lang="ratio-n">
+                          NO 
+                        </label><i class="fas fa-user ml-4"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tours -->
+                  <div class="row mb-4">
+                    <h5 class="col-md-12 mb-4 mt-3 adventure" data-lang="what-adv">WHAT ADVENTURE DO YOU WANT ?</h5>
+                    <div class="col-md-12 d-flex justify-content-around">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="checkVichada2" name="selecTour[]" value="VICHADA" >
+                        <label class="form-check-label" for="vichada2">VICHADA</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input gridCheck" attr-precio="4270" type="checkbox" id="checkCano" name="selecTour[]" value="CAÑO CRISTALES" checked>
+                        <label class="form-check-label" for="checkCano">CAÑO CRISTALES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="checkGuajira" name="selecTour[]" value="GUAJIRA" >
+                        <label class="form-check-label" for="checkGuajira">GUAJIRA</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mt-1 d-flex justify-content-around">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="checkParamos" name="selecTour[]" value="PARAMOS">
+                        <label class="form-check-label" for="checkParamos">PARAMOS</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="checkAncestral" name="selecTour[]" value="SOUTH ANCESTRAL">
+                        <label class="form-check-label" for="checkAncestral">SOUTH ANCESTRAL</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="checkCoffe" name="selecTour[]" value="GREEN COFFEE">
+                        <label class="form-check-label" for="checkCoffe">GREEN COFFEE</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12 d-flex justify-content-center">
+                      <button type="submit" class="btn btn-lg" value="Submit" data-lang="send">SEND</button>
+                    </div>
+                    <div class="col-sm-12 d-flex justify-content-center" style="visibility: hidden;">
+                      <label class="form-check-label" for="total">Total</label>
+                      <input class="totalll" type="number" name="total" id="total" attr-precio="0" type="text">
+                    </div>
+                  </div>
+                    
+                </form>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="incluye col-md-6" data-lang="includes">
+                <h3>INCLUDES</h3>
+                <ul>
+                  <li>Bilingual tour leader.</li>
+                  <li>Logistics and coordination of the tour.</li>
+                  <li>Supervision and satellite tracing (24 hours).</li>
+                  <li>Fuel for all the adventure days.</li>
+                  <li>Insurance against thirds and medical assistance (SOAT).</li>
+                  <li>Tickets related to the tour.</li>
+                  <li>Hotels and individual accommodation depending on availability.</li>
+                  <li>Food for all the tour days (Breakfast, lunch and dinner).</li>
+                  <li>Drinks and hydration during the tour.</li>
+                  <li>Transport between the hotel and airport.</li>
+                  <li>Souvenir of MRA.</li>
+                </ul>
+              </div>
+              <br>
+              <div class="no-incluye col-md-6" data-lang="no-includes">
+                <h3>DOESN'T INCLUDE:</h3>
+                <ul>
+                  <li>Airplane tickets.</li>
+                  <li>Regulatory equipment for protection.</li>
+                  <li>Medical and/or tourism insurance. (We recommend you acquire this coverage).</li>
+                  <li>Accessories for the motorcycle.</li>
+                  <li>Tickets to events that are not related to the adventure.</li>
+                  <li>Personal expenses.</li>
+                  <li>Personal costs of permits and visas.</li>
+                  <li>Tips.</li>
+                  <li>Not detailed elements.</li>
+                  <li>Motorcycles are not available on the rest days.</li>
+                  <li>¬	Accompanying car is included upon request.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval
+      ="4000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('images/tours/cristales/Cristales-172.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p> -->
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-185.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Three -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-295.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Four -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-440.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Five -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-661.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Six -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-779.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Seven -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-789.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Eight -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-832.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Nine -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-974.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Slide Teen -->
+        <div class="carousel-item" style="background-image: url('images/tours/cristales/Cristales-1025.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+      </div>
+      <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+      </a> -->
+    </div>
+  </section>
+</header>
+<div id="respuesta" style="display:none;"></div>
+
+
+<!-- --- --- Gallery Section--- --- -->
+<section id="gallery" class="container gallery-movile pt-5">
+  <div class="content-title">
+    <h1 class="title p-1" data-lang="gallery">GALLERY</h1>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-172.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-185.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-295.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-440.jpg" alt="Fourth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-661.jpg" alt="Fifth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-779.jpg" alt="Sixth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-789.jpg" alt="Eighth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-832.jpg" alt="Tenth slide">
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-974.jpg" alt="Eleventh slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="images/tours/cristales/Cristales-1025.jpg" alt="Tuelfth slide">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- --- --- Allies Section--- --- -->
+<section id="allies">
+  <div class="container">
+    <div class="col-md-6 offset-md-3">
+      <div class="content-title">
+        <h1 class="title font-weight-bold" data-lang="our-allies">OUR ALLIES</h1>
+      </div>
+    </div>
+    <div class="row allies-2 text-center">
+      <div class="col-md-12 align-self-center mb-4">
+        <img src="images/allies/ktm_logo.png" alt="logo KTM">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/w_the_adventure.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/w_mitas.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/w_motos_y_accesorios.png" alt="">
+      </div>        
+      <div class="col m-3">
+        <img src="images/allies/enmoto.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/w_spot.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img class="text-right" src="images/allies/Sena_2.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/six2_2.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/w_airoh.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/Forma.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/clover.png" alt="">
+      </div>
+      <div class="col m-3">
+        <img src="images/allies/Rok.png" alt="">
+      </div>
+    </div>
+
+    <div class="row content-text-allies ">
+      <div class="col-md-6">
+        <div class="content-subtitle">
+          <h2 class="sub-title" data-lang="the-moto">THE MOTORAID´S ADVENTURES ARE DESIGNED BASED ON THE SKILLS OF EACH PILOT IN MIND,</h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p data-lang="important">It is important to verify the degree of difficulty proposed for each tour. This is classified from 1 to 5, evaluating the type of soil, the duration of the rolling and the possibility that climatic events influence the route in some way. Most of the routes we design have a high component of off-road roads of tertiary roads or trails, proposing a variety of motorcycling</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- --- --- Contact Section--- --- -->
+<section id="contact">
+  <div class="col-md-6 offset-md-3">
+    <div class="content-title-contact">
+      <h1 class="title-contact font-weight-bold" data-lang="contact">contact</h1>
+    </div>
+  </div>
+  <div class="container">      
+
+    <div class="container-contact2">
+      <div class="wrap-contact2">
+        <form role="form" class="contact2-form" id="Formulario" action="php/contacto2.php" method="POST">
+          <!-- Formulario -->
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <!-- Nombre -->
+              <div class="wrap-input2 validate-input form-group">
+                <label class="focus-input2 control-label" for="Name" data-lang="c-name">Name:</label> 
+                <input class="input2" id="Name" type="text" name="Name" placeholder="Enter Name" required >
+              </div>
+
+              <!-- Telefono -->
+              <div class="wrap-input2 validate-input form-group">
+                <label class="focus-input2 control-label" for="Phone" data-lang="c-phone">Phone:</label>
+                <input class="input2" id="Phone" type="number" name="Phone" placeholder="Enter Phone" required >
+              </div>
+
+              <!-- Email -->
+              <div class="wrap-input2 validate-input form-group">
+                <label class="focus-input2 control-label" for="Email" data-lang="c-email">Email:</label>
+                <input class="input2" id="Email" type="email" name="Email" placeholder="Enter Email" required >
+              </div>
+            </div>
+
+              <!-- Text Area -->
+            <div class="col-md-6 col-sm-12">
+              <div class="wrap-input2 validate-input text-area" data-validate="Message is required">
+                <label class="focus-input2 control-label" for="Message" data-lang="c-message">Message</label>
+                <textarea rows="10" class="input2" id="Message" name="Message" placeholder="Enter Your Message" required></textarea> 
+              </div>
+            </div>
+            <!-- reCAPTCHA -->
+            <div class="form-group col-12 d-flex justify-content-center ">
+              <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+            </div>
+            <div class="form-group col-12 d-flex justify-content-center m-4">
+                <input type="submit" class="btn btn-enviar" value="Submit"></input>
+            </div>
+            <!-- Respuesta -->
+            <div id="respuesta" style="display:none;"></div>
+          </div>                      
+        </form>
+      </div>
+    </div>  
+    
+
+    <div class="row d-flex justify-content-center location">
+      <div class="col-md-4">
+        <p class="location-phone"> <i class="fas fa-phone-volume"></i> (+57) 310 - 882 9627</p>
+        <p class="location-phone"> <i class="fas fa-phone-volume"></i> (+57) 310 - 226 7187</p>
+      </div>
+      <div class="col-md-4 mt-3">
+        <p> <i class="fas fa-map-marker-alt"></i> Calle 77 # 7 - 64. Apto. 602 </p>
+      </div>
+    </div>
+    <div class="row logo-footer">
+      <div class="col-md-12 d-flex justify-content-center">
+        <a href="https://es-la.facebook.com/MotoRaidAdventure/" target="_blank">
+          <span><img src="images/logo-footer/svg pegado 4281x43_poster_.png" alt=""></span>
+        </a>
+        <a href="https://www.instagram.com/motoraidadventure/" target="_blank">
+          <span><img src="images/logo-footer/svg pegado 4281x43_poster_2.png" alt=""></span>
+        </a>
+        <a href="https://twitter.com/motoraid_adv" target="_blank">
+          <span><img src="images/logo-footer/svg pegado 4281x43_poster_3.png" alt=""></span>
+        </a>
+      </div>
+  </div>
+</section>
+
+<div class="floating-wpp"></div>
+
+<footer>
+  <div class="row">
+    <h6>Copyright © 2018 Todos Los Derechos Reservados. Powered By En Algún Lugar</h6>
+  </div>
+</footer>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.min.js""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/translate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+  <script src="js/dist/owl.carousel.min.js"></script>
+
+  <script> baguetteBox.run('.tz-gallery');
+  </script>
+
+  <script>
+      new WOW().init();
+  </script>
+
+<script>
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6Le79Y0UAAAAAPpYvqv3sb8544w-lUk5S0irrsQx', {action: 'homepage'})
+      .then(function(token) {
+        // console.log(token);
+        document.getElementById('g-recaptcha-response').value=token;
+      });
+    });
+  </script>
+
+  <script src="chatWp/floating-wpp.min.js"></script>
+
+</body></html>

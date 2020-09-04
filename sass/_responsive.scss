@@ -1,0 +1,279 @@
+@media (max-width: 1200px) {
+    .text-home {
+        padding-top:25%;
+        h1 {
+            font-size: 2rem;
+            padding: 20px 5px;
+        }
+    }
+    .new-tours {
+        .card-tour {
+            .card-bg {
+                .content-card {
+                    padding: 10px 0px;
+                    .tour-title { font-size: 1.3rem; }
+                    .tour-date {
+                        line-height: 18px;
+                        margin-bottom: 0.8rem;
+                    }
+                    .tour-parrafos {
+                        font-size: 0.82rem;
+                        margin-bottom: 0;
+                    }
+                    .tour-cost {
+                        font-size: 0.82rem;
+                        margin-bottom: 0;
+                    }
+                    .tour-btn {
+                        font-size: 0.9rem;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .project-block {
+        .content {
+            padding: 25px 6%;
+            height: auto;
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+        }
+        .content-personalize {
+            height: auto;
+            padding: 2% 6%;
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+        }
+    } 
+
+    .experiences {
+        .cont {
+            .cards {
+                height: 500px;
+                font-size: 0.74em;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .home { margin-bottom: 0; }
+    .video-container { padding-top: 140px; }
+    .tours {
+        .ubi-1 {
+            top: 27%;
+            left: 63%;
+        }
+        .ubi-2 {
+            top: 54%;
+            left: 50%;
+        }
+        .ubi-3 {
+            top: 0%;
+            left: 49%;
+        }
+        .ubi-4 {
+            top: 42%;
+            left: 30%;     
+        }
+        .ubi-5 {
+            top: 55%;
+            left: 20%;
+        }
+        .ubi-6 {
+            top: 27%;
+            left: 27%;
+        }
+    }
+
+    .carouselHome {
+        .carousel-item { height: 60vh; }
+    }
+
+    .experiences {
+        .cont {
+            .cards {
+                .content {
+                    .m-text { font-size: 10px; }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .navbar-collapse {
+        li { margin-right: 10px; }
+    }
+    .tours {
+        .ubi-1 {
+            top: 33%;
+            left: 64%;       
+        }
+        .ubi-3 {
+            top: -3%;
+            left: 49%;
+        }
+    }
+
+    .experiences {
+        .cont {
+            margin: 0px 0px;
+            .cards {
+                height: 400;
+                margin: 20px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .tours {
+        .parrafos { padding-right: 10px; }
+        .ubi-1, .ubi-2, .ubi-3, .ubi-4, .ubi-5, .ubi-6 { font-size:1.5em; }
+        .ubi-1 {
+            top: 35%;
+            left: 67%;    
+        }
+        .ubi-2 {
+            top: 56%;
+            left: 50%;       
+        }
+        .ubi-3 {
+            top: 2%;
+            left: 49%;
+        }
+        .ubi-4 { top: 46%; }
+        .ubi-5 { top: 60%; }
+        .ubi-6 { top: 28%; }
+    }
+    .new-tours {
+        .card-tour {
+            .card-bg {
+                .content-special {
+                    padding-bottom: 0;
+                    .tour-title { font-size: 1.4rem; }
+                    .tour-btn { font-size: 1.1rem; }
+                }
+            }
+        }
+    }
+    
+    .project-block {
+        .content { padding: 25px 6%; }
+        .content-personalize{
+            padding: 10px 6%;
+            h1 { font-size: 1rem; }
+        }
+    }
+
+    .text-home {
+        padding-top: 20%;
+        left: 0;
+        h1 { line-height: 40px; }
+    }
+
+    .container.gallery-container { border-radius: 0; }
+
+    .experiences {
+        .cont {
+            .cards { height: 550px; }
+        }
+    }
+}
+@media ( max-width: 577px) {
+    .new-tours {
+        .card-tour {
+            .card-bg {
+                .content-card { background: #285468a9; }
+                .content-card:before { display: none; }
+            }
+        }
+    }
+
+    .project-block {
+        figure { margin-bottom: 0%; }
+        .content {
+            padding: 3px 15px;
+            position: relative;
+            width: 100%;
+            margin-bottom: 20px;
+            .boton-tours { margin-bottom: 18px; }
+        }
+        .content-right { left: 0%; }
+        .content-personalize {
+            padding: 3px 4px;
+            position: relative;
+            .boton-tours { margin-bottom: 15px; }
+            h1 { font-size: 1rem; }
+        }
+    }
+    .text-home {
+        padding-top: 30%;
+        h1 {
+            font-size: 22px;
+            line-height: 28px ;
+            .text-home-sub {
+                font-size: 22px;
+            }
+        }
+    }      
+    
+    .tz-gallery {
+        img { max-width: 150px; }
+    }
+
+}
+
+@media(min-width:577px) {
+    .new-tours {
+        .card-tour {
+            .content-card{
+                transform: translateX(35%);
+                transition: all 1s ease-in-out;
+                .tour-date{
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                }
+                .tour-parrafos{
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                }
+                .tour-cost{
+                    opacity: 0;
+                    transition: all 1s ease-in-out;
+                }
+                .tour-btn{
+                    opacity: 0;
+                    transition: all 1s;
+                }
+            }
+            .content-card:before {
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+            }
+            .card-bg:hover{
+                .content-card{
+                    background:#285468a9;
+                    transform: translateX(0);
+                    .tour-date { opacity: 1; }
+                    .tour-parrafos { opacity: 1; }
+                    .tour-cost { opacity: 1; }
+                    .tour-btn { opacity: 1; }
+                }
+                .content-card::before { opacity: 1; }
+            }
+        }
+    }
+}
+@media ( max-width: 460px) {
+    .experiences {
+        .cont {
+            .cards { height: 400px; }
+        }
+    }
+}

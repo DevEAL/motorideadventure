@@ -1,0 +1,341 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden; }
+
+h1 {
+  font-size: 2.25rem;
+  color: #2A5467;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; }
+
+p {
+  font-family: "Montserrat", sans-serif; }
+
+.btn {
+  border-radius: 0px; }
+
+.home .navbar-nav .nav-item a:hover {
+  background: rgba(255, 255, 255, 0);
+  color: #2CAB6A; }
+
+.home .navbar-nav .nav-item a {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500; }
+
+.title {
+  display: inline-block;
+  position: relative; }
+
+.title::after, .title::before {
+  border-bottom: 4px solid #2A5467;
+  bottom: 50%;
+  content: "";
+  margin: 0 5px;
+  position: absolute;
+  width: 20px; }
+
+.title::before {
+  left: -35px; }
+
+.title::after {
+  right: -35px; }
+
+.navbar-toggler {
+  line-height: 1;
+  background-color: black;
+  color: #FFFFFF; }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: #ffffff !important; }
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  color: #ffffff !important; }
+
+.navbar-collapse {
+  padding-right: 10px; }
+  @media (max-width: 992px) {
+    .navbar-collapse li {
+      margin-right: 10px; } }
+
+.home {
+  background: url("../images/bg-buy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%; }
+  @media (max-width: 1200px) {
+    .home {
+      max-height: 800px; } }
+  @media (max-width: 400px) {
+    .home {
+      max-height: 600px; } }
+  .home nav {
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    .home nav .navbar-brand:hover {
+      background: transparent; }
+  .home .bg-dark {
+    background: rgba(255, 255, 255, 0.71) !important; }
+  .home .logo {
+    padding-right: 0%; }
+  .home .nav-item-links {
+    text-align: right !important; }
+  .home .text-home {
+    padding-top: 12%; }
+    .home .text-home h1 {
+      color: #FFFFFF;
+      line-height: 62px;
+      font-size: 2.5rem;
+      font-weight: 700; }
+    @media (max-width: 1200px) {
+      .home .text-home h1 {
+        font-size: 2rem;
+        padding: 20px 5px; } }
+    .home .text-home .text-home-sub {
+      font-size: 2.20rem;
+      font-weight: 500; }
+  @media (max-width: 1200px) {
+    .home .text-home {
+      padding-top: 25%; } }
+  .home .datosCompra {
+    background: #ffffff83;
+    position: relative;
+    top: 130;
+    color: #2A5467; }
+    .home .datosCompra .row {
+      padding: 5%; }
+      .home .datosCompra .row h2 {
+        text-align: center;
+        margin: 20px;
+        font-size: 3em; }
+      .home .datosCompra .row .imgBox {
+        padding: 0 1.15rem; }
+        .home .datosCompra .row .imgBox img {
+          border: 2px solid #fff; }
+      .home .datosCompra .row .imgList {
+        list-style: none;
+        padding: 0; }
+        .home .datosCompra .row .imgList li {
+          padding: 0 2px; }
+          .home .datosCompra .row .imgList li img {
+            position: relative;
+            border: 2px solid #fff;
+            transition: .2s all; }
+          .home .datosCompra .row .imgList li img:hover {
+            box-shadow: 0px 0px 10px 0px #285468; }
+      .home .datosCompra .row .description {
+        padding: 5% 0;
+        background: rgba(255, 255, 255, 0.507); }
+        .home .datosCompra .row .description h3 {
+          font-size: 2em;
+          padding: 0 .75rem;
+          color: #2A5467; }
+        .home .datosCompra .row .description table {
+          font-size: 1em;
+          text-align: left;
+          margin: 0;
+          color: #2A5467; }
+          .home .datosCompra .row .description table td {
+            border-top: 0;
+            padding: .50rem .75rem; }
+          .home .datosCompra .row .description table span {
+            font-weight: 100;
+            text-align: left; }
+          .home .datosCompra .row .description table .varAtr {
+            text-align: left;
+            font-weight: bold;
+            color: #2CAB6A; }
+        .home .datosCompra .row .description .botonPago {
+          width: 200px;
+          background: transparent;
+          color: #2CAB6A;
+          border: 1px solid #2CAB6A; }
+        .home .datosCompra .row .description .botonPago:hover {
+          background: #2CAB6A;
+          color: #fff; }
+
+.contact {
+  background: url("../images/fondo_footer.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  .contact .content-title-contact {
+    text-align: center;
+    padding-bottom: 5%; }
+    .contact .content-title-contact .title-contact {
+      color: #fff;
+      position: relative;
+      padding-top: 60%; }
+    .contact .content-title-contact .title-contact {
+      display: inline-block;
+      position: relative; }
+    .contact .content-title-contact .title-contact::after, .contact .content-title-contact .title-contact::before {
+      border-bottom: 4px solid #FFFFFF;
+      bottom: 16px;
+      content: "";
+      margin: 0 5px;
+      position: absolute;
+      width: 20px; }
+    .contact .content-title-contact .title-contact::before {
+      left: -35px; }
+    .contact .content-title-contact .title-contact::after {
+      right: -35px; }
+
+#contact .btn-enviar {
+  border: 2px solid #adadad; }
+#contact input {
+  outline: none;
+  border: none; }
+#contact textarea {
+  outline: none;
+  border: 1px solid #adadad; }
+#contact button {
+  outline: none !important;
+  border: none;
+  background: transparent; }
+#contact button:hover {
+  cursor: pointer; }
+
+.container-contact2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.wrap-contact2 {
+  background: #1e2f3a;
+  border-radius: 10px; }
+
+.wrap-input2 {
+  width: 100%;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 30px; }
+
+.input2 {
+  width: 100%;
+  background: #1e2f3a;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2; }
+
+.focus-input2 {
+  top: 0;
+  left: 0;
+  pointer-events: none; }
+
+textarea.input2 {
+  padding: 13px; }
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact2-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+  margin-bottom: 7%; }
+
+.wrap-contact2-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #fff; }
+
+.contact2-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 210px;
+  height: 35px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2; }
+
+.wrap-contact2-form-btn:hover .contact2-form-bgbtn {
+  left: 0; }
+
+.validate-input {
+  position: relative; }
+
+.location p {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center; }
+
+.logo-footer {
+  padding: 7% 0%; }
+  .logo-footer a {
+    transition: all 1s; }
+  .logo-footer a:hover {
+    background: none;
+    transform: translateY(-15px); }
+  .logo-footer span {
+    margin: 0px 5px; }
+
+footer {
+  padding: 1% 0%;
+  background-color: #1e2f3a;
+  border-top: 1px solid #fff; }
+  footer h6 {
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    font-weight: 300;
+    font-size: 14px; }
+
+label {
+  color: #FFFFFF; }
+
+.btn-enviar {
+  color: #FFFFFF;
+  width: 200px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px #FFFFFF solid;
+  transition: all 1s; }
+
+.btn-enviar:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px white;
+  -moz-box-shadow: 0px 0px 5px 0px white;
+  box-shadow: 0px 0px 5px 0px white; }
+
+:hover {
+  color: #1e2f3a;
+  background: #FFFFFF; }
+
+/*# sourceMappingURL=style_buy.css.map */

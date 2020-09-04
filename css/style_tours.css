@@ -429,6 +429,10 @@ footer {
     margin: auto;
     font-weight: 300;
     font-size: 14px; }
+    footer h6 a {
+      color: #fff; }
+      footer h6 a:hover {
+        color: #fff; }
 
 label {
   color: #FFFFFF; }
